@@ -13,4 +13,4 @@ streamlit-image-select
 node2vec
 markdown
 scikit-learn
-scipy =< 1.13
+scipy <= 1.13
