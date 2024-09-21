@@ -1,4 +1,3 @@
-distutils
 pandas
 streamlit-aggrid
 networkx
