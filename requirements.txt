@@ -1,18 +1,16 @@
-pandas = "*"
-streamlit = "*"
-streamlit-aggrid = "*"
-networkx = "*"
-pyvis = "*"
-lxml = "*"
-bs4 = "*"
-numpy = "*"
-st-annotated-text = "*"
-matplotlib = "*"
-openpyxl = "*"
-gensim = "*"
-streamlit-image-select = "*"
-node2vec = "*"
-markdown = "*"
-scikit-learn = "*"
-pipenv = "*"
-scipy = "<1.13"
+pandas
+streamlit-aggrid
+networkx
+pyvis
+lxml
+bs4
+numpy
+st-annotated-text
+matplotlib
+openpyxl
+gensim
+streamlit-image-select
+node2vec
+markdown
+scikit-learn
+scipy =< 1.13
