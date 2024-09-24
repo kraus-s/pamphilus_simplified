@@ -450,6 +450,7 @@ def get_leven_dfs_ready(df: pd.DataFrame, leven_similarity: int, leven_similarit
         else:
             return df.loc[(df["score"] >= leven_similarity) & (df["score"] <= leven_similarity_upper)]
 
+
 def get_leven_df(leven_path:str) -> pd.DataFrame:
     db = sqlite3.connect(leven_path)
     df = pd.read_sql("SELECT * FROM rat_scores", db)
