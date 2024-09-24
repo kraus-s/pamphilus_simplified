@@ -101,8 +101,6 @@ def _state_initializer():
 def _check_setup():
     if not st.session_state.setup_done:
         warmup.download_onp_data()
-        warmup.download_levenshtein_data()
-        st.session_state.setup_done = True
 
 def _click_model_quantifier():
     st.session_state.quantifier_clicked = True
@@ -527,20 +525,3 @@ def main():
 # -----------
 
 main()
-
-if st.session_state.step == "analysis":
-    if st.button("Take me back to the home page"):
-        st.session_state.step = ""
-    if st.button("Run stylometry"):
-        st.session_state.step = "stylometry"
-    if st.button("Run node2vec"):
-        st.session_state.step = "node2vec"
-    if st.button("Run manuscript network analysis"):
-        st.session_state.step = "clustering"
-
-if st.session_state.step == "stylometry":
-    _run_stylometry()
-if st.session_state.step == "node2vec":
-    _run_node2vec()
-if st.session_state.step == "clustering":
-    _run_clustering()
