@@ -301,64 +301,6 @@ def check_verse_contained(verse_number: str, verse_number_range: List[str]) -> b
         if i in verse_number:
             return True    
     return False
-
-
-# The following code block was intended to demonstrate a neo4j backend as a useful tool for graph based philological research.
-# It proved to be out of scope for the project, but is kept here as a reference for future work.
-# def display_para():
-#     st.write("NB! neo4j backend is not currently working with streamlit cloud.")
-#     graph = GraphDatabase.driver(NEO4J_URL_LOCAL, auth=NEO4J_CREDENTIALS)
-#     selected_verse = st.text_input("Select Verse or Verserange") 
-#     txtWits = ['B1', 'P3', 'To', 'W1', 'DG4-7']
-#     selected_text = st.multiselect(label="Select witnesses", options = txtWits, default=txtWits)
-#     displayMode = st.radio("Select display mode", options=[1, 2])
-#     if st.button("Run"):
-#         if "-" in selected_verse:
-#             i, ii = selected_verse.split("-")
-#             verse_number_range = list(map(str, range(int(i), int(ii)+1)))
-#             verse_number_range = [str(x) for x in verse_number_range]
-#         if not selected_verse:
-#             st.write("You gotta give me some text to work with")
-#         if displayMode == 1:
-#             number_of_columns = len(selected_text)
-#             cols = st.columns(number_of_columns)
-#             for a, aa in enumerate(cols):
-#                 current_text = selected_text[a]
-#                 aa.write(current_text)
-#                 if not selected_verse:
-#                     aa.write("No Verse or Verserange selected")
-#                 if current_text == 'DG4-7':
-#                     with graph.session() as session:
-#                         tx = session.begin_transaction()
-#                         results = tx.run(f"MATCH (a:E33_Linguistic_Object) WHERE a.paraVerse IN {verse_number_range} AND a.inMS = '{current_text}' RETURN a.paraVerse AS vn, a.Normalized AS text")
-#                         resD = results.data()
-#                 else:
-#                     with graph.session() as session:
-#                         tx = session.begin_transaction()
-#                         results = tx.run(f"MATCH (a:E33_Linguistic_Object) WHERE a.VerseNorm IN {verse_number_range} AND a.inMS = '{current_text}' RETURN a.VerseNorm AS vn, a.Normalized AS text")
-#                         resD = results.data()
-#                 resX = {}
-#                 for res in resD:
-#                     if res['vn'] in resX:
-#                         resX[res['vn']] = f"{resX[res['vn']]} {res['text']}"
-#                     else:
-#                         resX[res['vn']] = res['text']
-#                 for k in resX:
-#                     aa.write(f"{k} {resX[k]}")
-#         elif displayMode == 2:
-#             st.write("Nothing to see here yet.")
-#             st.write(f"Getting Verses {verse_number_range} from MSs {selected_text}")
-#             with graph.session() as session:
-#                 tx = session.begin_transaction()
-#                 results = tx.run(f"""MATCH (a)-[r]->(b) 
-#                                     WHERE a.inMS IN {selected_text}
-#                                     AND b.inMS IN {selected_text}
-#                                     AND a.VerseNorm IN {verse_number_range} 
-#                                     RETURN *""")
-#                 nodes = list(results.graph()._nodes.values())
-#                 rels = list(results.graph()._relationships.values())
-#             graph_view = neo2st.get_view(nodes, rels)
-#             components.html(graph_view, height = 900, width=900, scrolling=True)
             
 
 def vcooc():
@@ -441,7 +383,7 @@ def home_page():
     st.write("Welcome to the webapp. This is a digital appendix to my dissertation.")
     st.write("It has all the results and data that I used in my dissertation.")
     st.write("You can navigate the app using the sidebar on the left.")
-    st.write("This is a simplified version. To run the analyises, you need to run the app locally. Refer to the repository at https://github.com/kraus-s/pamphilus_db")
+    st.write("This is a simplified version. To run the analyses, you need to run the app locally. Refer to the repository at https://github.com/kraus-s/pamphilus_db")
  
 
 def main():
