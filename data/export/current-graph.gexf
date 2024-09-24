@@ -1,0 +1,832 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-11-27">
+    <creator>NetworkX 3.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Elementa philosophiae" label="Elementa philosophiae" />
+      <node id="Bucolicum carmen" label="Bucolicum carmen" />
+      <node id="Heautontimorumenos" label="Heautontimorumenos" />
+      <node id="Phormio" label="Phormio" />
+      <node id="Elegia" label="Elegia" />
+      <node id="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " label="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " />
+      <node id="Rota Veneris" label="Rota Veneris" />
+      <node id="In Vergilii Georgicis comentarii" label="In Vergilii Georgicis comentarii" />
+      <node id="De excidio Troiae historia" label="De excidio Troiae historia" />
+      <node id="De contemptu mundi" label="De contemptu mundi" />
+      <node id="Ars grammatica" label="Ars grammatica" />
+      <node id="Eunuchus" label="Eunuchus" />
+      <node id="Andria" label="Andria" />
+      <node id="Commentarius in Vergilii Aeneidos libros" label="Commentarius in Vergilii Aeneidos libros" />
+      <node id="De philosophia" label="De philosophia" />
+      <node id="In Vergilii Aeneide comentarii" label="In Vergilii Aeneide comentarii" />
+      <node id="De nuptiis Philologiae et Mercurii" label="De nuptiis Philologiae et Mercurii" />
+      <node id="Adelphi" label="Adelphi" />
+      <node id="Alexandreis" label="Alexandreis" />
+      <node id="Carmina Burana" label="Carmina Burana" />
+      <node id="Hecyra" label="Hecyra" />
+      <node id="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" label="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" />
+      <node id="B1" label="B1" />
+      <node id="P3" label="P3" />
+      <node id="To" label="To" />
+      <node id="W1" label="W1" />
+      <node id="P5" label="P5" />
+      <node id="Metamorphoses" label="Metamorphoses" />
+      <node id="Tristia" label="Tristia" />
+      <node id="Amores" label="Amores" />
+      <node id="Epistulae (vel Heroides)" label="Epistulae (vel Heroides)" />
+      <node id="Medicamina faciei femineae" label="Medicamina faciei femineae" />
+      <node id="Ars Amatoria" label="Ars Amatoria" />
+      <node id="Remedia amoris" label="Remedia amoris" />
+      <node id="Ibis" label="Ibis" />
+      <node id="Fasti" label="Fasti" />
+      <node id="Ex Ponto" label="Ex Ponto" />
+      <node id="Aeneid" label="Aeneid" />
+      <node id="Eclogues" label="Eclogues" />
+      <node id="Georgicon" label="Georgicon" />
+    </nodes>
+    <edges>
+      <edge source="Elementa philosophiae" target="Bucolicum carmen" id="0" weight="38.824306023575375" />
+      <edge source="Elementa philosophiae" target="Heautontimorumenos" id="1" weight="34.93395135707607" />
+      <edge source="Elementa philosophiae" target="Phormio" id="2" weight="37.09737072545413" />
+      <edge source="Elementa philosophiae" target="Elegia" id="3" weight="44.25738051964856" />
+      <edge source="Elementa philosophiae" target="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " id="4" weight="51.552650601259685" />
+      <edge source="Elementa philosophiae" target="Rota Veneris" id="5" weight="49.362073158197695" />
+      <edge source="Elementa philosophiae" target="In Vergilii Georgicis comentarii" id="6" weight="73.04454365512882" />
+      <edge source="Elementa philosophiae" target="De excidio Troiae historia" id="7" weight="42.052973322743625" />
+      <edge source="Elementa philosophiae" target="De contemptu mundi" id="8" weight="39.00435298833672" />
+      <edge source="Elementa philosophiae" target="Ars grammatica" id="9" weight="58.66039501153322" />
+      <edge source="Elementa philosophiae" target="Eunuchus" id="10" weight="34.94745924302498" />
+      <edge source="Elementa philosophiae" target="Andria" id="11" weight="37.581673180034144" />
+      <edge source="Elementa philosophiae" target="Commentarius in Vergilii Aeneidos libros" id="12" weight="40.84359342248263" />
+      <edge source="Elementa philosophiae" target="De philosophia" id="13" weight="74.32917379483521" />
+      <edge source="Elementa philosophiae" target="In Vergilii Aeneide comentarii" id="14" weight="75.25347274255914" />
+      <edge source="Elementa philosophiae" target="De nuptiis Philologiae et Mercurii" id="15" weight="73.76589756166922" />
+      <edge source="Elementa philosophiae" target="Adelphi" id="16" weight="41.477433240299156" />
+      <edge source="Elementa philosophiae" target="Alexandreis" id="17" weight="51.99525374745332" />
+      <edge source="Elementa philosophiae" target="Carmina Burana" id="18" weight="60.19051697480293" />
+      <edge source="Elementa philosophiae" target="Hecyra" id="19" weight="42.3127089326873" />
+      <edge source="Elementa philosophiae" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="20" weight="72.47259069944586" />
+      <edge source="Elementa philosophiae" target="B1" id="21" weight="44.38585040396149" />
+      <edge source="Elementa philosophiae" target="P3" id="22" weight="44.37771335812209" />
+      <edge source="Elementa philosophiae" target="To" id="23" weight="44.65500018403237" />
+      <edge source="Elementa philosophiae" target="W1" id="24" weight="44.87087286510486" />
+      <edge source="Elementa philosophiae" target="P5" id="25" weight="44.213655857148616" />
+      <edge source="Elementa philosophiae" target="Metamorphoses" id="26" weight="55.64443993755091" />
+      <edge source="Elementa philosophiae" target="Tristia" id="27" weight="59.22593659882638" />
+      <edge source="Elementa philosophiae" target="Amores" id="28" weight="54.90198020329699" />
+      <edge source="Elementa philosophiae" target="Epistulae (vel Heroides)" id="29" weight="57.385310825884694" />
+      <edge source="Elementa philosophiae" target="Medicamina faciei femineae" id="30" weight="17.04059458597291" />
+      <edge source="Elementa philosophiae" target="Ars Amatoria" id="31" weight="58.443775160311894" />
+      <edge source="Elementa philosophiae" target="Remedia amoris" id="32" weight="49.38045164612544" />
+      <edge source="Elementa philosophiae" target="Ibis" id="33" weight="37.66660659450313" />
+      <edge source="Elementa philosophiae" target="Fasti" id="34" weight="62.21854999774211" />
+      <edge source="Elementa philosophiae" target="Ex Ponto" id="35" weight="59.31578760656553" />
+      <edge source="Elementa philosophiae" target="Aeneid" id="36" weight="43.93631410356627" />
+      <edge source="Elementa philosophiae" target="Eclogues" id="37" weight="34.40105132772181" />
+      <edge source="Elementa philosophiae" target="Georgicon" id="38" weight="41.138235528084934" />
+      <edge source="Bucolicum carmen" target="Heautontimorumenos" id="39" weight="26.297329542975877" />
+      <edge source="Bucolicum carmen" target="Phormio" id="40" weight="26.49145184193833" />
+      <edge source="Bucolicum carmen" target="Elegia" id="41" weight="41.473819799375214" />
+      <edge source="Bucolicum carmen" target="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " id="42" weight="31.02529097353616" />
+      <edge source="Bucolicum carmen" target="Rota Veneris" id="43" weight="31.974383597392997" />
+      <edge source="Bucolicum carmen" target="In Vergilii Georgicis comentarii" id="44" weight="43.721515376426154" />
+      <edge source="Bucolicum carmen" target="De excidio Troiae historia" id="45" weight="27.584712630148754" />
+      <edge source="Bucolicum carmen" target="De contemptu mundi" id="46" weight="22.37755610379173" />
+      <edge source="Bucolicum carmen" target="Ars grammatica" id="47" weight="32.81019078432927" />
+      <edge source="Bucolicum carmen" target="Eunuchus" id="48" weight="26.95651132735294" />
+      <edge source="Bucolicum carmen" target="Andria" id="49" weight="28.80777432738666" />
+      <edge source="Bucolicum carmen" target="Commentarius in Vergilii Aeneidos libros" id="50" weight="22.87417551790255" />
+      <edge source="Bucolicum carmen" target="De philosophia" id="51" weight="32.533342442582125" />
+      <edge source="Bucolicum carmen" target="In Vergilii Aeneide comentarii" id="52" weight="45.140482149609994" />
+      <edge source="Bucolicum carmen" target="De nuptiis Philologiae et Mercurii" id="53" weight="49.87841145339793" />
+      <edge source="Bucolicum carmen" target="Adelphi" id="54" weight="29.951137157901364" />
+      <edge source="Bucolicum carmen" target="Alexandreis" id="55" weight="54.98046848427733" />
+      <edge source="Bucolicum carmen" target="Carmina Burana" id="56" weight="45.50687408759162" />
+      <edge source="Bucolicum carmen" target="Hecyra" id="57" weight="32.235159489150874" />
+      <edge source="Bucolicum carmen" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="58" weight="36.54985014026179" />
+      <edge source="Bucolicum carmen" target="B1" id="59" weight="48.5025333165525" />
+      <edge source="Bucolicum carmen" target="P3" id="60" weight="47.649392895825436" />
+      <edge source="Bucolicum carmen" target="To" id="61" weight="48.011900969565815" />
+      <edge source="Bucolicum carmen" target="W1" id="62" weight="47.48020733879888" />
+      <edge source="Bucolicum carmen" target="P5" id="63" weight="46.60144510134949" />
+      <edge source="Bucolicum carmen" target="Metamorphoses" id="64" weight="69.06997053946762" />
+      <edge source="Bucolicum carmen" target="Tristia" id="65" weight="56.994382199376346" />
+      <edge source="Bucolicum carmen" target="Amores" id="66" weight="51.225165946681386" />
+      <edge source="Bucolicum carmen" target="Epistulae (vel Heroides)" id="67" weight="55.77236110088026" />
+      <edge source="Bucolicum carmen" target="Medicamina faciei femineae" id="68" weight="15.434789096190615" />
+      <edge source="Bucolicum carmen" target="Ars Amatoria" id="69" weight="51.75767786802741" />
+      <edge source="Bucolicum carmen" target="Remedia amoris" id="70" weight="38.64699017365889" />
+      <edge source="Bucolicum carmen" target="Ibis" id="71" weight="40.21440582507546" />
+      <edge source="Bucolicum carmen" target="Fasti" id="72" weight="59.113325695096265" />
+      <edge source="Bucolicum carmen" target="Ex Ponto" id="73" weight="53.46967795822627" />
+      <edge source="Bucolicum carmen" target="Aeneid" id="74" weight="66.83022777860559" />
+      <edge source="Bucolicum carmen" target="Eclogues" id="75" weight="38.35950332664664" />
+      <edge source="Bucolicum carmen" target="Georgicon" id="76" weight="57.751485551434925" />
+      <edge source="Heautontimorumenos" target="Phormio" id="77" weight="50.203289107328516" />
+      <edge source="Heautontimorumenos" target="Elegia" id="78" weight="32.631246298896535" />
+      <edge source="Heautontimorumenos" target="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " id="79" weight="26.522999531741533" />
+      <edge source="Heautontimorumenos" target="Rota Veneris" id="80" weight="25.827657025863637" />
+      <edge source="Heautontimorumenos" target="In Vergilii Georgicis comentarii" id="81" weight="37.62876096992416" />
+      <edge source="Heautontimorumenos" target="De excidio Troiae historia" id="82" weight="22.03235193707639" />
+      <edge source="Heautontimorumenos" target="De contemptu mundi" id="83" weight="19.85091203233886" />
+      <edge source="Heautontimorumenos" target="Ars grammatica" id="84" weight="29.023360607202243" />
+      <edge source="Heautontimorumenos" target="Eunuchus" id="85" weight="51.84308817454954" />
+      <edge source="Heautontimorumenos" target="Andria" id="86" weight="56.434612611990396" />
+      <edge source="Heautontimorumenos" target="Commentarius in Vergilii Aeneidos libros" id="87" weight="22.1387044337813" />
+      <edge source="Heautontimorumenos" target="De philosophia" id="88" weight="27.775069460011494" />
+      <edge source="Heautontimorumenos" target="In Vergilii Aeneide comentarii" id="89" weight="40.84962511706938" />
+      <edge source="Heautontimorumenos" target="De nuptiis Philologiae et Mercurii" id="90" weight="38.666505036323564" />
+      <edge source="Heautontimorumenos" target="Adelphi" id="91" weight="53.648855073070266" />
+      <edge source="Heautontimorumenos" target="Alexandreis" id="92" weight="27.587248694042867" />
+      <edge source="Heautontimorumenos" target="Carmina Burana" id="93" weight="36.028926736243136" />
+      <edge source="Heautontimorumenos" target="Hecyra" id="94" weight="47.74441904522047" />
+      <edge source="Heautontimorumenos" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="95" weight="36.86390094670094" />
+      <edge source="Heautontimorumenos" target="B1" id="96" weight="35.431010162522114" />
+      <edge source="Heautontimorumenos" target="P3" id="97" weight="36.34609474209789" />
+      <edge source="Heautontimorumenos" target="To" id="98" weight="36.43296628463231" />
+      <edge source="Heautontimorumenos" target="W1" id="99" weight="36.43831454406487" />
+      <edge source="Heautontimorumenos" target="P5" id="100" weight="36.12602240722249" />
+      <edge source="Heautontimorumenos" target="Metamorphoses" id="101" weight="32.04854319463881" />
+      <edge source="Heautontimorumenos" target="Tristia" id="102" weight="42.52312234806928" />
+      <edge source="Heautontimorumenos" target="Amores" id="103" weight="39.502658264577484" />
+      <edge source="Heautontimorumenos" target="Epistulae (vel Heroides)" id="104" weight="44.599475764706554" />
+      <edge source="Heautontimorumenos" target="Medicamina faciei femineae" id="105" weight="8.698549035572722" />
+      <edge source="Heautontimorumenos" target="Ars Amatoria" id="106" weight="37.43740613664437" />
+      <edge source="Heautontimorumenos" target="Remedia amoris" id="107" weight="32.409713034697475" />
+      <edge source="Heautontimorumenos" target="Ibis" id="108" weight="25.616379585905015" />
+      <edge source="Heautontimorumenos" target="Fasti" id="109" weight="37.60874133802844" />
+      <edge source="Heautontimorumenos" target="Ex Ponto" id="110" weight="43.93339242297309" />
+      <edge source="Heautontimorumenos" target="Aeneid" id="111" weight="25.067587640794397" />
+      <edge source="Heautontimorumenos" target="Eclogues" id="112" weight="27.083199115551395" />
+      <edge source="Heautontimorumenos" target="Georgicon" id="113" weight="19.79353134704731" />
+      <edge source="Phormio" target="Elegia" id="114" weight="32.89216131518944" />
+      <edge source="Phormio" target="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " id="115" weight="27.172963312615007" />
+      <edge source="Phormio" target="Rota Veneris" id="116" weight="26.313234834140097" />
+      <edge source="Phormio" target="In Vergilii Georgicis comentarii" id="117" weight="39.60418855881747" />
+      <edge source="Phormio" target="De excidio Troiae historia" id="118" weight="23.343559887695587" />
+      <edge source="Phormio" target="De contemptu mundi" id="119" weight="20.919944493810615" />
+      <edge source="Phormio" target="Ars grammatica" id="120" weight="29.843150370221704" />
+      <edge source="Phormio" target="Eunuchus" id="121" weight="52.96270260213577" />
+      <edge source="Phormio" target="Andria" id="122" weight="51.2874122156602" />
+      <edge source="Phormio" target="Commentarius in Vergilii Aeneidos libros" id="123" weight="23.377693172946344" />
+      <edge source="Phormio" target="De philosophia" id="124" weight="29.456607935296873" />
+      <edge source="Phormio" target="In Vergilii Aeneide comentarii" id="125" weight="43.20343958585009" />
+      <edge source="Phormio" target="De nuptiis Philologiae et Mercurii" id="126" weight="40.58834173623032" />
+      <edge source="Phormio" target="Adelphi" id="127" weight="49.9342387473167" />
+      <edge source="Phormio" target="Alexandreis" id="128" weight="28.196046106425964" />
+      <edge source="Phormio" target="Carmina Burana" id="129" weight="37.0412276545949" />
+      <edge source="Phormio" target="Hecyra" id="130" weight="54.268114108806785" />
+      <edge source="Phormio" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="131" weight="39.34935001626767" />
+      <edge source="Phormio" target="B1" id="132" weight="35.45260598650542" />
+      <edge source="Phormio" target="P3" id="133" weight="36.42266170364125" />
+      <edge source="Phormio" target="To" id="134" weight="36.52699753685242" />
+      <edge source="Phormio" target="W1" id="135" weight="36.43507259070067" />
+      <edge source="Phormio" target="P5" id="136" weight="36.146911106442836" />
+      <edge source="Phormio" target="Metamorphoses" id="137" weight="32.81195626043218" />
+      <edge source="Phormio" target="Tristia" id="138" weight="43.72082725973965" />
+      <edge source="Phormio" target="Amores" id="139" weight="39.60626920135573" />
+      <edge source="Phormio" target="Epistulae (vel Heroides)" id="140" weight="44.978794419202295" />
+      <edge source="Phormio" target="Medicamina faciei femineae" id="141" weight="9.134033163203558" />
+      <edge source="Phormio" target="Ars Amatoria" id="142" weight="38.04366757606621" />
+      <edge source="Phormio" target="Remedia amoris" id="143" weight="32.584261520763214" />
+      <edge source="Phormio" target="Ibis" id="144" weight="26.15478072780808" />
+      <edge source="Phormio" target="Fasti" id="145" weight="38.94416207022287" />
+      <edge source="Phormio" target="Ex Ponto" id="146" weight="45.099117194513575" />
+      <edge source="Phormio" target="Aeneid" id="147" weight="25.08621127060656" />
+      <edge source="Phormio" target="Eclogues" id="148" weight="27.097880135590902" />
+      <edge source="Phormio" target="Georgicon" id="149" weight="19.314232255600928" />
+      <edge source="Elegia" target="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " id="150" weight="34.73197073646113" />
+      <edge source="Elegia" target="Rota Veneris" id="151" weight="35.27333943337844" />
+      <edge source="Elegia" target="In Vergilii Georgicis comentarii" id="152" weight="46.703051252323945" />
+      <edge source="Elegia" target="De excidio Troiae historia" id="153" weight="27.690691194658392" />
+      <edge source="Elegia" target="De contemptu mundi" id="154" weight="26.395934998512203" />
+      <edge source="Elegia" target="Ars grammatica" id="155" weight="35.130170279434836" />
+      <edge source="Elegia" target="Eunuchus" id="156" weight="32.75068117152018" />
+      <edge source="Elegia" target="Andria" id="157" weight="35.35812861327996" />
+      <edge source="Elegia" target="Commentarius in Vergilii Aeneidos libros" id="158" weight="26.10846769511759" />
+      <edge source="Elegia" target="De philosophia" id="159" weight="35.35538747111926" />
+      <edge source="Elegia" target="In Vergilii Aeneide comentarii" id="160" weight="49.163035339036654" />
+      <edge source="Elegia" target="De nuptiis Philologiae et Mercurii" id="161" weight="49.75357651946671" />
+      <edge source="Elegia" target="Adelphi" id="162" weight="36.347008008461934" />
+      <edge source="Elegia" target="Alexandreis" id="163" weight="45.12859995392387" />
+      <edge source="Elegia" target="Carmina Burana" id="164" weight="48.17806691271289" />
+      <edge source="Elegia" target="Hecyra" id="165" weight="38.210891107868775" />
+      <edge source="Elegia" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="166" weight="42.44939676872583" />
+      <edge source="Elegia" target="B1" id="167" weight="47.262494527925945" />
+      <edge source="Elegia" target="P3" id="168" weight="47.45955330815252" />
+      <edge source="Elegia" target="To" id="169" weight="47.57002484768822" />
+      <edge source="Elegia" target="W1" id="170" weight="47.62532133727137" />
+      <edge source="Elegia" target="P5" id="171" weight="46.90423479756072" />
+      <edge source="Elegia" target="Metamorphoses" id="172" weight="50.76836002994249" />
+      <edge source="Elegia" target="Tristia" id="173" weight="55.72529177151503" />
+      <edge source="Elegia" target="Amores" id="174" weight="51.69040171776575" />
+      <edge source="Elegia" target="Epistulae (vel Heroides)" id="175" weight="56.423631963020945" />
+      <edge source="Elegia" target="Medicamina faciei femineae" id="176" weight="13.813595000128965" />
+      <edge source="Elegia" target="Ars Amatoria" id="177" weight="50.63980431146039" />
+      <edge source="Elegia" target="Remedia amoris" id="178" weight="41.98914871490036" />
+      <edge source="Elegia" target="Ibis" id="179" weight="36.70753437422706" />
+      <edge source="Elegia" target="Fasti" id="180" weight="52.1084207405475" />
+      <edge source="Elegia" target="Ex Ponto" id="181" weight="55.62555735961647" />
+      <edge source="Elegia" target="Aeneid" id="182" weight="43.87976572373814" />
+      <edge source="Elegia" target="Eclogues" id="183" weight="34.22807865404722" />
+      <edge source="Elegia" target="Georgicon" id="184" weight="37.07930249554131" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Rota Veneris" id="185" weight="38.220837845154556" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="In Vergilii Georgicis comentarii" id="186" weight="55.696077259955466" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="De excidio Troiae historia" id="187" weight="31.06826316698421" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="De contemptu mundi" id="188" weight="29.798061901642402" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Ars grammatica" id="189" weight="44.763878810578795" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Eunuchus" id="190" weight="26.549408431176502" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Andria" id="191" weight="28.655353713567354" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Commentarius in Vergilii Aeneidos libros" id="192" weight="31.059502254874083" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="De philosophia" id="193" weight="41.52011046047291" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="In Vergilii Aeneide comentarii" id="194" weight="57.610844576995035" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="De nuptiis Philologiae et Mercurii" id="195" weight="51.65990313853145" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Adelphi" id="196" weight="30.50905246909228" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Alexandreis" id="197" weight="38.182216468823846" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Carmina Burana" id="198" weight="47.45677245101655" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Hecyra" id="199" weight="31.032485453690274" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="200" weight="50.645183715078666" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="B1" id="201" weight="38.009900841370495" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="P3" id="202" weight="37.26576674161055" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="To" id="203" weight="37.51930150266676" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="W1" id="204" weight="37.61790034998784" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="P5" id="205" weight="37.307448960630296" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Metamorphoses" id="206" weight="40.71645284751483" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Tristia" id="207" weight="42.085067724637604" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Amores" id="208" weight="40.66627140768715" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Epistulae (vel Heroides)" id="209" weight="43.13852115050963" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Medicamina faciei femineae" id="210" weight="11.653479651267261" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Ars Amatoria" id="211" weight="42.09264140134723" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Remedia amoris" id="212" weight="36.291701186349655" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Ibis" id="213" weight="28.00674859854684" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Fasti" id="214" weight="45.058089017354064" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Ex Ponto" id="215" weight="43.11636017603276" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Aeneid" id="216" weight="36.48806212546276" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Eclogues" id="217" weight="28.726336237038364" />
+      <edge source="Liber de doctrina dicendi et tacendi (Tractatus de arte loquendi et tacendi) " target="Georgicon" id="218" weight="33.87992507377098" />
+      <edge source="Rota Veneris" target="In Vergilii Georgicis comentarii" id="219" weight="49.51445369306822" />
+      <edge source="Rota Veneris" target="De excidio Troiae historia" id="220" weight="30.252302153226918" />
+      <edge source="Rota Veneris" target="De contemptu mundi" id="221" weight="27.72655174304235" />
+      <edge source="Rota Veneris" target="Ars grammatica" id="222" weight="43.81646487682534" />
+      <edge source="Rota Veneris" target="Eunuchus" id="223" weight="26.14561670736061" />
+      <edge source="Rota Veneris" target="Andria" id="224" weight="27.770631121387357" />
+      <edge source="Rota Veneris" target="Commentarius in Vergilii Aeneidos libros" id="225" weight="27.002345057303813" />
+      <edge source="Rota Veneris" target="De philosophia" id="226" weight="39.750621659161034" />
+      <edge source="Rota Veneris" target="In Vergilii Aeneide comentarii" id="227" weight="50.88336483255773" />
+      <edge source="Rota Veneris" target="De nuptiis Philologiae et Mercurii" id="228" weight="51.44934878080222" />
+      <edge source="Rota Veneris" target="Adelphi" id="229" weight="29.167131922985167" />
+      <edge source="Rota Veneris" target="Alexandreis" id="230" weight="40.361989692769384" />
+      <edge source="Rota Veneris" target="Carmina Burana" id="231" weight="47.53930463584898" />
+      <edge source="Rota Veneris" target="Hecyra" id="232" weight="31.060119064064693" />
+      <edge source="Rota Veneris" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="233" weight="45.4477331159341" />
+      <edge source="Rota Veneris" target="B1" id="234" weight="37.826763499113035" />
+      <edge source="Rota Veneris" target="P3" id="235" weight="37.44000541288661" />
+      <edge source="Rota Veneris" target="To" id="236" weight="37.58845477916213" />
+      <edge source="Rota Veneris" target="W1" id="237" weight="37.66193698375082" />
+      <edge source="Rota Veneris" target="P5" id="238" weight="37.341454812339414" />
+      <edge source="Rota Veneris" target="Metamorphoses" id="239" weight="40.88825285148802" />
+      <edge source="Rota Veneris" target="Tristia" id="240" weight="43.76120739721265" />
+      <edge source="Rota Veneris" target="Amores" id="241" weight="42.16984339900138" />
+      <edge source="Rota Veneris" target="Epistulae (vel Heroides)" id="242" weight="43.897616290249374" />
+      <edge source="Rota Veneris" target="Medicamina faciei femineae" id="243" weight="12.930739937163105" />
+      <edge source="Rota Veneris" target="Ars Amatoria" id="244" weight="41.79842343359121" />
+      <edge source="Rota Veneris" target="Remedia amoris" id="245" weight="36.07930008696768" />
+      <edge source="Rota Veneris" target="Ibis" id="246" weight="28.076289241175534" />
+      <edge source="Rota Veneris" target="Fasti" id="247" weight="43.07543878915847" />
+      <edge source="Rota Veneris" target="Ex Ponto" id="248" weight="43.902363388711876" />
+      <edge source="Rota Veneris" target="Aeneid" id="249" weight="36.78393637502093" />
+      <edge source="Rota Veneris" target="Eclogues" id="250" weight="29.337576380334973" />
+      <edge source="Rota Veneris" target="Georgicon" id="251" weight="33.329166782568606" />
+      <edge source="In Vergilii Georgicis comentarii" target="De excidio Troiae historia" id="252" weight="46.38751548384684" />
+      <edge source="In Vergilii Georgicis comentarii" target="De contemptu mundi" id="253" weight="39.08840164365077" />
+      <edge source="In Vergilii Georgicis comentarii" target="Ars grammatica" id="254" weight="61.2241113526619" />
+      <edge source="In Vergilii Georgicis comentarii" target="Eunuchus" id="255" weight="37.565494168393165" />
+      <edge source="In Vergilii Georgicis comentarii" target="Andria" id="256" weight="40.64472841569473" />
+      <edge source="In Vergilii Georgicis comentarii" target="Commentarius in Vergilii Aeneidos libros" id="257" weight="46.21336811123484" />
+      <edge source="In Vergilii Georgicis comentarii" target="De philosophia" id="258" weight="58.38232192522182" />
+      <edge source="In Vergilii Georgicis comentarii" target="In Vergilii Aeneide comentarii" id="259" weight="93.21432519592433" />
+      <edge source="In Vergilii Georgicis comentarii" target="De nuptiis Philologiae et Mercurii" id="260" weight="77.46003996838043" />
+      <edge source="In Vergilii Georgicis comentarii" target="Adelphi" id="261" weight="42.885941473701926" />
+      <edge source="In Vergilii Georgicis comentarii" target="Alexandreis" id="262" weight="54.5575716108391" />
+      <edge source="In Vergilii Georgicis comentarii" target="Carmina Burana" id="263" weight="62.519154237489374" />
+      <edge source="In Vergilii Georgicis comentarii" target="Hecyra" id="264" weight="46.17493646486823" />
+      <edge source="In Vergilii Georgicis comentarii" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="265" weight="77.27373059408262" />
+      <edge source="In Vergilii Georgicis comentarii" target="B1" id="266" weight="47.20173495659634" />
+      <edge source="In Vergilii Georgicis comentarii" target="P3" id="267" weight="47.12143901833768" />
+      <edge source="In Vergilii Georgicis comentarii" target="To" id="268" weight="47.13415303427051" />
+      <edge source="In Vergilii Georgicis comentarii" target="W1" id="269" weight="47.26342049275058" />
+      <edge source="In Vergilii Georgicis comentarii" target="P5" id="270" weight="46.51786998382331" />
+      <edge source="In Vergilii Georgicis comentarii" target="Metamorphoses" id="271" weight="59.30211536950372" />
+      <edge source="In Vergilii Georgicis comentarii" target="Tristia" id="272" weight="60.463756213248864" />
+      <edge source="In Vergilii Georgicis comentarii" target="Amores" id="273" weight="55.22590404961421" />
+      <edge source="In Vergilii Georgicis comentarii" target="Epistulae (vel Heroides)" id="274" weight="59.079577672080475" />
+      <edge source="In Vergilii Georgicis comentarii" target="Medicamina faciei femineae" id="275" weight="17.152848289306778" />
+      <edge source="In Vergilii Georgicis comentarii" target="Ars Amatoria" id="276" weight="59.06829792541346" />
+      <edge source="In Vergilii Georgicis comentarii" target="Remedia amoris" id="277" weight="49.27358380719875" />
+      <edge source="In Vergilii Georgicis comentarii" target="Ibis" id="278" weight="41.48672051074447" />
+      <edge source="In Vergilii Georgicis comentarii" target="Fasti" id="279" weight="65.4422636173324" />
+      <edge source="In Vergilii Georgicis comentarii" target="Ex Ponto" id="280" weight="61.17417286974272" />
+      <edge source="In Vergilii Georgicis comentarii" target="Aeneid" id="281" weight="51.583108305953914" />
+      <edge source="In Vergilii Georgicis comentarii" target="Eclogues" id="282" weight="38.03854157882065" />
+      <edge source="In Vergilii Georgicis comentarii" target="Georgicon" id="283" weight="48.669417057918565" />
+      <edge source="De excidio Troiae historia" target="De contemptu mundi" id="284" weight="23.514316270296078" />
+      <edge source="De excidio Troiae historia" target="Ars grammatica" id="285" weight="38.55229503229866" />
+      <edge source="De excidio Troiae historia" target="Eunuchus" id="286" weight="22.32775178431341" />
+      <edge source="De excidio Troiae historia" target="Andria" id="287" weight="24.167146518672823" />
+      <edge source="De excidio Troiae historia" target="Commentarius in Vergilii Aeneidos libros" id="288" weight="25.13903245821133" />
+      <edge source="De excidio Troiae historia" target="De philosophia" id="289" weight="33.84755800412794" />
+      <edge source="De excidio Troiae historia" target="In Vergilii Aeneide comentarii" id="290" weight="49.386378614192594" />
+      <edge source="De excidio Troiae historia" target="De nuptiis Philologiae et Mercurii" id="291" weight="46.67048434576104" />
+      <edge source="De excidio Troiae historia" target="Adelphi" id="292" weight="25.391136444645923" />
+      <edge source="De excidio Troiae historia" target="Alexandreis" id="293" weight="38.09730645880216" />
+      <edge source="De excidio Troiae historia" target="Carmina Burana" id="294" weight="39.333133215033" />
+      <edge source="De excidio Troiae historia" target="Hecyra" id="295" weight="27.47940279909461" />
+      <edge source="De excidio Troiae historia" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="296" weight="42.372640475069524" />
+      <edge source="De excidio Troiae historia" target="B1" id="297" weight="29.70995267217007" />
+      <edge source="De excidio Troiae historia" target="P3" id="298" weight="29.205390630950944" />
+      <edge source="De excidio Troiae historia" target="To" id="299" weight="29.345619165314574" />
+      <edge source="De excidio Troiae historia" target="W1" id="300" weight="29.174377316465595" />
+      <edge source="De excidio Troiae historia" target="P5" id="301" weight="29.050707632522276" />
+      <edge source="De excidio Troiae historia" target="Metamorphoses" id="302" weight="38.94086156952953" />
+      <edge source="De excidio Troiae historia" target="Tristia" id="303" weight="36.82125665802651" />
+      <edge source="De excidio Troiae historia" target="Amores" id="304" weight="34.253904138528156" />
+      <edge source="De excidio Troiae historia" target="Epistulae (vel Heroides)" id="305" weight="36.03851067441952" />
+      <edge source="De excidio Troiae historia" target="Medicamina faciei femineae" id="306" weight="11.5469423967825" />
+      <edge source="De excidio Troiae historia" target="Ars Amatoria" id="307" weight="36.458083394921914" />
+      <edge source="De excidio Troiae historia" target="Remedia amoris" id="308" weight="30.05829335640695" />
+      <edge source="De excidio Troiae historia" target="Ibis" id="309" weight="26.728133969983435" />
+      <edge source="De excidio Troiae historia" target="Fasti" id="310" weight="40.21141336148577" />
+      <edge source="De excidio Troiae historia" target="Ex Ponto" id="311" weight="36.56955700936568" />
+      <edge source="De excidio Troiae historia" target="Aeneid" id="312" weight="36.50028404527125" />
+      <edge source="De excidio Troiae historia" target="Eclogues" id="313" weight="23.00184453252494" />
+      <edge source="De excidio Troiae historia" target="Georgicon" id="314" weight="31.29777928151182" />
+      <edge source="De contemptu mundi" target="Ars grammatica" id="315" weight="30.743867643844137" />
+      <edge source="De contemptu mundi" target="Eunuchus" id="316" weight="19.917761074212525" />
+      <edge source="De contemptu mundi" target="Andria" id="317" weight="21.69191994919226" />
+      <edge source="De contemptu mundi" target="Commentarius in Vergilii Aeneidos libros" id="318" weight="22.17085528253272" />
+      <edge source="De contemptu mundi" target="De philosophia" id="319" weight="30.768437440592145" />
+      <edge source="De contemptu mundi" target="In Vergilii Aeneide comentarii" id="320" weight="41.05047917023048" />
+      <edge source="De contemptu mundi" target="De nuptiis Philologiae et Mercurii" id="321" weight="40.153583146324955" />
+      <edge source="De contemptu mundi" target="Adelphi" id="322" weight="22.585858009384907" />
+      <edge source="De contemptu mundi" target="Alexandreis" id="323" weight="30.351007076189628" />
+      <edge source="De contemptu mundi" target="Carmina Burana" id="324" weight="36.83255053633363" />
+      <edge source="De contemptu mundi" target="Hecyra" id="325" weight="23.930408689954074" />
+      <edge source="De contemptu mundi" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="326" weight="38.316828994338806" />
+      <edge source="De contemptu mundi" target="B1" id="327" weight="26.7202654531294" />
+      <edge source="De contemptu mundi" target="P3" id="328" weight="26.69210757846465" />
+      <edge source="De contemptu mundi" target="To" id="329" weight="26.93789843562889" />
+      <edge source="De contemptu mundi" target="W1" id="330" weight="26.96673162805121" />
+      <edge source="De contemptu mundi" target="P5" id="331" weight="26.654416238114564" />
+      <edge source="De contemptu mundi" target="Metamorphoses" id="332" weight="30.25463862492912" />
+      <edge source="De contemptu mundi" target="Tristia" id="333" weight="33.74912874309739" />
+      <edge source="De contemptu mundi" target="Amores" id="334" weight="30.98779898429983" />
+      <edge source="De contemptu mundi" target="Epistulae (vel Heroides)" id="335" weight="32.943667035599546" />
+      <edge source="De contemptu mundi" target="Medicamina faciei femineae" id="336" weight="9.57781524322776" />
+      <edge source="De contemptu mundi" target="Ars Amatoria" id="337" weight="32.19215666855126" />
+      <edge source="De contemptu mundi" target="Remedia amoris" id="338" weight="27.194997861703797" />
+      <edge source="De contemptu mundi" target="Ibis" id="339" weight="22.12289198645432" />
+      <edge source="De contemptu mundi" target="Fasti" id="340" weight="33.584304579378966" />
+      <edge source="De contemptu mundi" target="Ex Ponto" id="341" weight="34.23687057360307" />
+      <edge source="De contemptu mundi" target="Aeneid" id="342" weight="25.023886433863083" />
+      <edge source="De contemptu mundi" target="Eclogues" id="343" weight="20.39476040742886" />
+      <edge source="De contemptu mundi" target="Georgicon" id="344" weight="22.08899027968042" />
+      <edge source="Ars grammatica" target="Eunuchus" id="345" weight="28.941048328264074" />
+      <edge source="Ars grammatica" target="Andria" id="346" weight="31.281957276804327" />
+      <edge source="Ars grammatica" target="Commentarius in Vergilii Aeneidos libros" id="347" weight="35.448250315875164" />
+      <edge source="Ars grammatica" target="De philosophia" id="348" weight="47.927619360458884" />
+      <edge source="Ars grammatica" target="In Vergilii Aeneide comentarii" id="349" weight="64.75256897140444" />
+      <edge source="Ars grammatica" target="De nuptiis Philologiae et Mercurii" id="350" weight="67.6000743349268" />
+      <edge source="Ars grammatica" target="Adelphi" id="351" weight="32.56586740145416" />
+      <edge source="Ars grammatica" target="Alexandreis" id="352" weight="45.382379486394484" />
+      <edge source="Ars grammatica" target="Carmina Burana" id="353" weight="52.87222743447049" />
+      <edge source="Ars grammatica" target="Hecyra" id="354" weight="35.71092551458879" />
+      <edge source="Ars grammatica" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="355" weight="56.14090583561357" />
+      <edge source="Ars grammatica" target="B1" id="356" weight="37.27257608644774" />
+      <edge source="Ars grammatica" target="P3" id="357" weight="37.11623443568545" />
+      <edge source="Ars grammatica" target="To" id="358" weight="37.16264204369659" />
+      <edge source="Ars grammatica" target="W1" id="359" weight="37.31508431574929" />
+      <edge source="Ars grammatica" target="P5" id="360" weight="37.02116042730397" />
+      <edge source="Ars grammatica" target="Metamorphoses" id="361" weight="45.993225127621976" />
+      <edge source="Ars grammatica" target="Tristia" id="362" weight="47.80238977805548" />
+      <edge source="Ars grammatica" target="Amores" id="363" weight="43.90358724318679" />
+      <edge source="Ars grammatica" target="Epistulae (vel Heroides)" id="364" weight="46.08504028553709" />
+      <edge source="Ars grammatica" target="Medicamina faciei femineae" id="365" weight="13.69438487632687" />
+      <edge source="Ars grammatica" target="Ars Amatoria" id="366" weight="46.38391674517799" />
+      <edge source="Ars grammatica" target="Remedia amoris" id="367" weight="39.515559817480714" />
+      <edge source="Ars grammatica" target="Ibis" id="368" weight="38.005773390461506" />
+      <edge source="Ars grammatica" target="Fasti" id="369" weight="50.32516134987988" />
+      <edge source="Ars grammatica" target="Ex Ponto" id="370" weight="47.45880002036393" />
+      <edge source="Ars grammatica" target="Aeneid" id="371" weight="40.70626960859638" />
+      <edge source="Ars grammatica" target="Eclogues" id="372" weight="31.399302964048836" />
+      <edge source="Ars grammatica" target="Georgicon" id="373" weight="37.751890572943594" />
+      <edge source="Eunuchus" target="Andria" id="374" weight="58.95416439785988" />
+      <edge source="Eunuchus" target="Commentarius in Vergilii Aeneidos libros" id="375" weight="21.9286977283747" />
+      <edge source="Eunuchus" target="De philosophia" id="376" weight="27.856950650761515" />
+      <edge source="Eunuchus" target="In Vergilii Aeneide comentarii" id="377" weight="40.64759218871994" />
+      <edge source="Eunuchus" target="De nuptiis Philologiae et Mercurii" id="378" weight="38.846329447984076" />
+      <edge source="Eunuchus" target="Adelphi" id="379" weight="43.22349988727375" />
+      <edge source="Eunuchus" target="Alexandreis" id="380" weight="28.051211362685823" />
+      <edge source="Eunuchus" target="Carmina Burana" id="381" weight="36.505499465760785" />
+      <edge source="Eunuchus" target="Hecyra" id="382" weight="53.48479945396867" />
+      <edge source="Eunuchus" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="383" weight="36.899081870083485" />
+      <edge source="Eunuchus" target="B1" id="384" weight="35.534891113670206" />
+      <edge source="Eunuchus" target="P3" id="385" weight="36.30562984009862" />
+      <edge source="Eunuchus" target="To" id="386" weight="36.44837274883355" />
+      <edge source="Eunuchus" target="W1" id="387" weight="36.3113288302255" />
+      <edge source="Eunuchus" target="P5" id="388" weight="36.05885944058649" />
+      <edge source="Eunuchus" target="Metamorphoses" id="389" weight="32.62131967059987" />
+      <edge source="Eunuchus" target="Tristia" id="390" weight="42.441155515955884" />
+      <edge source="Eunuchus" target="Amores" id="391" weight="39.57312212259107" />
+      <edge source="Eunuchus" target="Epistulae (vel Heroides)" id="392" weight="44.47731931750577" />
+      <edge source="Eunuchus" target="Medicamina faciei femineae" id="393" weight="8.98598178512372" />
+      <edge source="Eunuchus" target="Ars Amatoria" id="394" weight="37.54255986908206" />
+      <edge source="Eunuchus" target="Remedia amoris" id="395" weight="32.38787269546138" />
+      <edge source="Eunuchus" target="Ibis" id="396" weight="25.187464198429097" />
+      <edge source="Eunuchus" target="Fasti" id="397" weight="38.05792700088615" />
+      <edge source="Eunuchus" target="Ex Ponto" id="398" weight="43.79433265250918" />
+      <edge source="Eunuchus" target="Aeneid" id="399" weight="26.018379599555296" />
+      <edge source="Eunuchus" target="Eclogues" id="400" weight="27.80660250753808" />
+      <edge source="Eunuchus" target="Georgicon" id="401" weight="20.621560313803034" />
+      <edge source="Andria" target="Commentarius in Vergilii Aeneidos libros" id="402" weight="23.937033707670963" />
+      <edge source="Andria" target="De philosophia" id="403" weight="29.819457989810118" />
+      <edge source="Andria" target="In Vergilii Aeneide comentarii" id="404" weight="44.465437937678054" />
+      <edge source="Andria" target="De nuptiis Philologiae et Mercurii" id="405" weight="42.20626518376485" />
+      <edge source="Andria" target="Adelphi" id="406" weight="47.321082169427655" />
+      <edge source="Andria" target="Alexandreis" id="407" weight="30.16136682258479" />
+      <edge source="Andria" target="Carmina Burana" id="408" weight="39.62523363023581" />
+      <edge source="Andria" target="Hecyra" id="409" weight="55.792703877519955" />
+      <edge source="Andria" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="410" weight="39.59524556927967" />
+      <edge source="Andria" target="B1" id="411" weight="38.8745128953049" />
+      <edge source="Andria" target="P3" id="412" weight="39.842950855324034" />
+      <edge source="Andria" target="To" id="413" weight="39.99919105323153" />
+      <edge source="Andria" target="W1" id="414" weight="39.865871061947985" />
+      <edge source="Andria" target="P5" id="415" weight="39.54452868392928" />
+      <edge source="Andria" target="Metamorphoses" id="416" weight="34.336354912568055" />
+      <edge source="Andria" target="Tristia" id="417" weight="45.94483745382875" />
+      <edge source="Andria" target="Amores" id="418" weight="42.34472136298606" />
+      <edge source="Andria" target="Epistulae (vel Heroides)" id="419" weight="47.87760689953004" />
+      <edge source="Andria" target="Medicamina faciei femineae" id="420" weight="9.413614232146639" />
+      <edge source="Andria" target="Ars Amatoria" id="421" weight="40.160118297897576" />
+      <edge source="Andria" target="Remedia amoris" id="422" weight="34.6201047960458" />
+      <edge source="Andria" target="Ibis" id="423" weight="26.891653800018556" />
+      <edge source="Andria" target="Fasti" id="424" weight="40.40280499978655" />
+      <edge source="Andria" target="Ex Ponto" id="425" weight="47.4956506082754" />
+      <edge source="Andria" target="Aeneid" id="426" weight="27.549218089083404" />
+      <edge source="Andria" target="Eclogues" id="427" weight="30.34142993168041" />
+      <edge source="Andria" target="Georgicon" id="428" weight="21.445807180225184" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="De philosophia" id="429" weight="32.53396247600834" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="In Vergilii Aeneide comentarii" id="430" weight="49.946872459626235" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="De nuptiis Philologiae et Mercurii" id="431" weight="43.75055460142083" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Adelphi" id="432" weight="25.342101631516112" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Alexandreis" id="433" weight="29.40794565663455" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Carmina Burana" id="434" weight="34.44074172589461" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Hecyra" id="435" weight="27.23953193470592" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="436" weight="43.288402985478534" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="B1" id="437" weight="26.69534207407519" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="P3" id="438" weight="26.93378528597654" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="To" id="439" weight="26.973196360541742" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="W1" id="440" weight="27.038624626070785" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="P5" id="441" weight="26.63296516551584" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Metamorphoses" id="442" weight="32.03569764999581" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Tristia" id="443" weight="34.965458470253566" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Amores" id="444" weight="31.468501542508942" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Epistulae (vel Heroides)" id="445" weight="34.04883562945179" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Medicamina faciei femineae" id="446" weight="9.382147812373198" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Ars Amatoria" id="447" weight="33.80599280278611" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Remedia amoris" id="448" weight="28.43170509120121" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Ibis" id="449" weight="23.927028810172114" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Fasti" id="450" weight="36.58498579373255" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Ex Ponto" id="451" weight="35.27073733349535" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Aeneid" id="452" weight="26.771007574901674" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Eclogues" id="453" weight="20.676606635477434" />
+      <edge source="Commentarius in Vergilii Aeneidos libros" target="Georgicon" id="454" weight="23.141340619098006" />
+      <edge source="De philosophia" target="In Vergilii Aeneide comentarii" id="455" weight="60.070104095584085" />
+      <edge source="De philosophia" target="De nuptiis Philologiae et Mercurii" id="456" weight="59.4679093815605" />
+      <edge source="De philosophia" target="Adelphi" id="457" weight="32.971471497838834" />
+      <edge source="De philosophia" target="Alexandreis" id="458" weight="41.708983996286264" />
+      <edge source="De philosophia" target="Carmina Burana" id="459" weight="48.572317477656824" />
+      <edge source="De philosophia" target="Hecyra" id="460" weight="34.205609946783454" />
+      <edge source="De philosophia" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="461" weight="57.26003227846751" />
+      <edge source="De philosophia" target="B1" id="462" weight="35.89973624696514" />
+      <edge source="De philosophia" target="P3" id="463" weight="35.81734609734525" />
+      <edge source="De philosophia" target="To" id="464" weight="36.03951775720653" />
+      <edge source="De philosophia" target="W1" id="465" weight="36.1717510860749" />
+      <edge source="De philosophia" target="P5" id="466" weight="35.66860797075853" />
+      <edge source="De philosophia" target="Metamorphoses" id="467" weight="44.949376634908035" />
+      <edge source="De philosophia" target="Tristia" id="468" weight="47.19328369703337" />
+      <edge source="De philosophia" target="Amores" id="469" weight="43.74428415103663" />
+      <edge source="De philosophia" target="Epistulae (vel Heroides)" id="470" weight="45.69298338828498" />
+      <edge source="De philosophia" target="Medicamina faciei femineae" id="471" weight="13.673989675965647" />
+      <edge source="De philosophia" target="Ars Amatoria" id="472" weight="46.63939270607129" />
+      <edge source="De philosophia" target="Remedia amoris" id="473" weight="39.3240589398265" />
+      <edge source="De philosophia" target="Ibis" id="474" weight="30.18900480548181" />
+      <edge source="De philosophia" target="Fasti" id="475" weight="49.896108814369555" />
+      <edge source="De philosophia" target="Ex Ponto" id="476" weight="47.18189223703061" />
+      <edge source="De philosophia" target="Aeneid" id="477" weight="36.3061501215211" />
+      <edge source="De philosophia" target="Eclogues" id="478" weight="28.056453836671903" />
+      <edge source="De philosophia" target="Georgicon" id="479" weight="34.035251918937334" />
+      <edge source="In Vergilii Aeneide comentarii" target="De nuptiis Philologiae et Mercurii" id="480" weight="81.05962816814828" />
+      <edge source="In Vergilii Aeneide comentarii" target="Adelphi" id="481" weight="46.56181723499403" />
+      <edge source="In Vergilii Aeneide comentarii" target="Alexandreis" id="482" weight="57.171554042078135" />
+      <edge source="In Vergilii Aeneide comentarii" target="Carmina Burana" id="483" weight="64.9514387849162" />
+      <edge source="In Vergilii Aeneide comentarii" target="Hecyra" id="484" weight="50.06030199830802" />
+      <edge source="In Vergilii Aeneide comentarii" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="485" weight="79.12060561821185" />
+      <edge source="In Vergilii Aeneide comentarii" target="B1" id="486" weight="50.528531076660265" />
+      <edge source="In Vergilii Aeneide comentarii" target="P3" id="487" weight="50.69965579170004" />
+      <edge source="In Vergilii Aeneide comentarii" target="To" id="488" weight="50.74856990080928" />
+      <edge source="In Vergilii Aeneide comentarii" target="W1" id="489" weight="50.87957807668547" />
+      <edge source="In Vergilii Aeneide comentarii" target="P5" id="490" weight="50.05674150719288" />
+      <edge source="In Vergilii Aeneide comentarii" target="Metamorphoses" id="491" weight="62.23038908687026" />
+      <edge source="In Vergilii Aeneide comentarii" target="Tristia" id="492" weight="64.98917640968904" />
+      <edge source="In Vergilii Aeneide comentarii" target="Amores" id="493" weight="58.64747247716819" />
+      <edge source="In Vergilii Aeneide comentarii" target="Epistulae (vel Heroides)" id="494" weight="63.51971807412467" />
+      <edge source="In Vergilii Aeneide comentarii" target="Medicamina faciei femineae" id="495" weight="17.53825220294809" />
+      <edge source="In Vergilii Aeneide comentarii" target="Ars Amatoria" id="496" weight="62.65887578485432" />
+      <edge source="In Vergilii Aeneide comentarii" target="Remedia amoris" id="497" weight="52.173904568190224" />
+      <edge source="In Vergilii Aeneide comentarii" target="Ibis" id="498" weight="45.08122274070334" />
+      <edge source="In Vergilii Aeneide comentarii" target="Fasti" id="499" weight="69.04428713553428" />
+      <edge source="In Vergilii Aeneide comentarii" target="Ex Ponto" id="500" weight="65.81953814408085" />
+      <edge source="In Vergilii Aeneide comentarii" target="Aeneid" id="501" weight="54.61882604188231" />
+      <edge source="In Vergilii Aeneide comentarii" target="Eclogues" id="502" weight="39.384986854795635" />
+      <edge source="In Vergilii Aeneide comentarii" target="Georgicon" id="503" weight="46.7106413493531" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Adelphi" id="504" weight="44.026808706812545" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Alexandreis" id="505" weight="61.51121407657554" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Carmina Burana" id="506" weight="63.389315018341755" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Hecyra" id="507" weight="47.903320890519815" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="508" weight="72.62069612929031" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="B1" id="509" weight="50.50591344076205" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="P3" id="510" weight="50.53413957330657" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="To" id="511" weight="50.823117607750135" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="W1" id="512" weight="50.73219004703492" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="P5" id="513" weight="49.871769345126296" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Metamorphoses" id="514" weight="67.14212060242295" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Tristia" id="515" weight="67.22682071418247" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Amores" id="516" weight="59.77935333562482" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Epistulae (vel Heroides)" id="517" weight="64.02420729362869" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Medicamina faciei femineae" id="518" weight="19.260931868182162" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Ars Amatoria" id="519" weight="64.0349653583819" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Remedia amoris" id="520" weight="51.83281702021381" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Ibis" id="521" weight="48.252888707238895" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Fasti" id="522" weight="68.97080108037554" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Ex Ponto" id="523" weight="66.59592893802228" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Aeneid" id="524" weight="58.06134397770878" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Eclogues" id="525" weight="39.85121045235389" />
+      <edge source="De nuptiis Philologiae et Mercurii" target="Georgicon" id="526" weight="51.18098256603511" />
+      <edge source="Adelphi" target="Alexandreis" id="527" weight="31.203188091015242" />
+      <edge source="Adelphi" target="Carmina Burana" id="528" weight="41.3999695698722" />
+      <edge source="Adelphi" target="Hecyra" id="529" weight="52.185571892627166" />
+      <edge source="Adelphi" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="530" weight="42.24298302258001" />
+      <edge source="Adelphi" target="B1" id="531" weight="39.40014773510434" />
+      <edge source="Adelphi" target="P3" id="532" weight="40.29826939469405" />
+      <edge source="Adelphi" target="To" id="533" weight="40.46177777891727" />
+      <edge source="Adelphi" target="W1" id="534" weight="40.34216133186854" />
+      <edge source="Adelphi" target="P5" id="535" weight="40.01266595924633" />
+      <edge source="Adelphi" target="Metamorphoses" id="536" weight="36.50074265184286" />
+      <edge source="Adelphi" target="Tristia" id="537" weight="47.71242634470967" />
+      <edge source="Adelphi" target="Amores" id="538" weight="43.94563149931111" />
+      <edge source="Adelphi" target="Epistulae (vel Heroides)" id="539" weight="49.4287436796776" />
+      <edge source="Adelphi" target="Medicamina faciei femineae" id="540" weight="10.29170522887446" />
+      <edge source="Adelphi" target="Ars Amatoria" id="541" weight="42.53645625247978" />
+      <edge source="Adelphi" target="Remedia amoris" id="542" weight="36.39739405896909" />
+      <edge source="Adelphi" target="Ibis" id="543" weight="28.02451406371096" />
+      <edge source="Adelphi" target="Fasti" id="544" weight="43.41779228900733" />
+      <edge source="Adelphi" target="Ex Ponto" id="545" weight="49.380573045492746" />
+      <edge source="Adelphi" target="Aeneid" id="546" weight="28.720264608422262" />
+      <edge source="Adelphi" target="Eclogues" id="547" weight="30.53856231675216" />
+      <edge source="Adelphi" target="Georgicon" id="548" weight="22.842152740077548" />
+      <edge source="Alexandreis" target="Carmina Burana" id="549" weight="53.758161062867195" />
+      <edge source="Alexandreis" target="Hecyra" id="550" weight="33.753494740236654" />
+      <edge source="Alexandreis" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="551" weight="46.74158378859246" />
+      <edge source="Alexandreis" target="B1" id="552" weight="48.944191454234634" />
+      <edge source="Alexandreis" target="P3" id="553" weight="48.09513344182336" />
+      <edge source="Alexandreis" target="To" id="554" weight="48.547833753207435" />
+      <edge source="Alexandreis" target="W1" id="555" weight="47.974611993220826" />
+      <edge source="Alexandreis" target="P5" id="556" weight="47.290614753155054" />
+      <edge source="Alexandreis" target="Metamorphoses" id="557" weight="70.82646747822179" />
+      <edge source="Alexandreis" target="Tristia" id="558" weight="60.26578077048666" />
+      <edge source="Alexandreis" target="Amores" id="559" weight="54.17381009551042" />
+      <edge source="Alexandreis" target="Epistulae (vel Heroides)" id="560" weight="57.89957555260143" />
+      <edge source="Alexandreis" target="Medicamina faciei femineae" id="561" weight="17.674868826155322" />
+      <edge source="Alexandreis" target="Ars Amatoria" id="562" weight="55.90477790470051" />
+      <edge source="Alexandreis" target="Remedia amoris" id="563" weight="42.80352664572318" />
+      <edge source="Alexandreis" target="Ibis" id="564" weight="43.93377822381643" />
+      <edge source="Alexandreis" target="Fasti" id="565" weight="62.966774306770866" />
+      <edge source="Alexandreis" target="Ex Ponto" id="566" weight="57.44236377377997" />
+      <edge source="Alexandreis" target="Aeneid" id="567" weight="68.41978314759545" />
+      <edge source="Alexandreis" target="Eclogues" id="568" weight="37.156855520199784" />
+      <edge source="Alexandreis" target="Georgicon" id="569" weight="57.76186111403803" />
+      <edge source="Carmina Burana" target="Hecyra" id="570" weight="42.80817654890039" />
+      <edge source="Carmina Burana" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="571" weight="57.25337755800955" />
+      <edge source="Carmina Burana" target="B1" id="572" weight="51.00545065705402" />
+      <edge source="Carmina Burana" target="P3" id="573" weight="50.72521911244567" />
+      <edge source="Carmina Burana" target="To" id="574" weight="50.877700484485544" />
+      <edge source="Carmina Burana" target="W1" id="575" weight="50.784568643182645" />
+      <edge source="Carmina Burana" target="P5" id="576" weight="50.468834383496166" />
+      <edge source="Carmina Burana" target="Metamorphoses" id="577" weight="55.731740099408064" />
+      <edge source="Carmina Burana" target="Tristia" id="578" weight="59.648758145534096" />
+      <edge source="Carmina Burana" target="Amores" id="579" weight="57.34874401047831" />
+      <edge source="Carmina Burana" target="Epistulae (vel Heroides)" id="580" weight="60.143337745069616" />
+      <edge source="Carmina Burana" target="Medicamina faciei femineae" id="581" weight="16.582679864267845" />
+      <edge source="Carmina Burana" target="Ars Amatoria" id="582" weight="56.95106348361853" />
+      <edge source="Carmina Burana" target="Remedia amoris" id="583" weight="48.28401339880938" />
+      <edge source="Carmina Burana" target="Ibis" id="584" weight="38.50487205434108" />
+      <edge source="Carmina Burana" target="Fasti" id="585" weight="60.20068751138019" />
+      <edge source="Carmina Burana" target="Ex Ponto" id="586" weight="59.98578572194732" />
+      <edge source="Carmina Burana" target="Aeneid" id="587" weight="50.79750029395518" />
+      <edge source="Carmina Burana" target="Eclogues" id="588" weight="42.15400763571675" />
+      <edge source="Carmina Burana" target="Georgicon" id="589" weight="44.983079272078676" />
+      <edge source="Hecyra" target="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" id="590" weight="45.617680159073124" />
+      <edge source="Hecyra" target="B1" id="591" weight="42.33773175569635" />
+      <edge source="Hecyra" target="P3" id="592" weight="43.41300114386861" />
+      <edge source="Hecyra" target="To" id="593" weight="43.507803850668836" />
+      <edge source="Hecyra" target="W1" id="594" weight="43.38127908256551" />
+      <edge source="Hecyra" target="P5" id="595" weight="42.98438329909959" />
+      <edge source="Hecyra" target="Metamorphoses" id="596" weight="39.287891429376806" />
+      <edge source="Hecyra" target="Tristia" id="597" weight="51.40372516132052" />
+      <edge source="Hecyra" target="Amores" id="598" weight="46.149237454155" />
+      <edge source="Hecyra" target="Epistulae (vel Heroides)" id="599" weight="52.59956576887716" />
+      <edge source="Hecyra" target="Medicamina faciei femineae" id="600" weight="10.810379091764489" />
+      <edge source="Hecyra" target="Ars Amatoria" id="601" weight="44.48939241984454" />
+      <edge source="Hecyra" target="Remedia amoris" id="602" weight="38.17071513020447" />
+      <edge source="Hecyra" target="Ibis" id="603" weight="31.24981569891797" />
+      <edge source="Hecyra" target="Fasti" id="604" weight="45.452004534668745" />
+      <edge source="Hecyra" target="Ex Ponto" id="605" weight="52.686714668628376" />
+      <edge source="Hecyra" target="Aeneid" id="606" weight="30.628367713922742" />
+      <edge source="Hecyra" target="Eclogues" id="607" weight="31.923952517549093" />
+      <edge source="Hecyra" target="Georgicon" id="608" weight="23.92684424187116" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="B1" id="609" weight="41.397370146438895" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="P3" id="610" weight="41.59249882310149" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="To" id="611" weight="41.78357445397127" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="W1" id="612" weight="42.001286216871115" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="P5" id="613" weight="41.27147558026285" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Metamorphoses" id="614" weight="51.45089137795089" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Tristia" id="615" weight="56.155740532802476" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Amores" id="616" weight="50.456968176865445" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Epistulae (vel Heroides)" id="617" weight="54.44678359452474" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Medicamina faciei femineae" id="618" weight="15.773709235972788" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Ars Amatoria" id="619" weight="54.46506935726758" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Remedia amoris" id="620" weight="45.66236659726505" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Ibis" id="621" weight="36.067547724867865" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Fasti" id="622" weight="59.32422521499572" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Ex Ponto" id="623" weight="56.62251357321034" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Aeneid" id="624" weight="40.46647579495618" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Eclogues" id="625" weight="31.33952458556316" />
+      <edge source="Commentarium in Martiani Capellae «De nuptiis Mercurii et Philologiae» I-II" target="Georgicon" id="626" weight="35.73734173118438" />
+      <edge source="B1" target="P3" id="627" weight="89.09269783477701" />
+      <edge source="B1" target="To" id="628" weight="89.37056184304399" />
+      <edge source="B1" target="W1" id="629" weight="89.60247354470577" />
+      <edge source="B1" target="P5" id="630" weight="86.4795881997907" />
+      <edge source="B1" target="Metamorphoses" id="631" weight="59.622730772057906" />
+      <edge source="B1" target="Tristia" id="632" weight="63.58229718293897" />
+      <edge source="B1" target="Amores" id="633" weight="58.60876722948445" />
+      <edge source="B1" target="Epistulae (vel Heroides)" id="634" weight="64.86653220427556" />
+      <edge source="B1" target="Medicamina faciei femineae" id="635" weight="14.705107149995367" />
+      <edge source="B1" target="Ars Amatoria" id="636" weight="55.573690528631744" />
+      <edge source="B1" target="Remedia amoris" id="637" weight="45.919289261557616" />
+      <edge source="B1" target="Ibis" id="638" weight="39.67065530238314" />
+      <edge source="B1" target="Fasti" id="639" weight="58.18170852500647" />
+      <edge source="B1" target="Ex Ponto" id="640" weight="62.326339479013896" />
+      <edge source="B1" target="Aeneid" id="641" weight="52.62337661029262" />
+      <edge source="B1" target="Eclogues" id="642" weight="40.55562649426763" />
+      <edge source="B1" target="Georgicon" id="643" weight="44.308221510149835" />
+      <edge source="P3" target="To" id="644" weight="90.80849683132604" />
+      <edge source="P3" target="W1" id="645" weight="91.97272381869807" />
+      <edge source="P3" target="P5" id="646" weight="88.08583805268633" />
+      <edge source="P3" target="Metamorphoses" id="647" weight="58.54567794186896" />
+      <edge source="P3" target="Tristia" id="648" weight="63.91286978540074" />
+      <edge source="P3" target="Amores" id="649" weight="58.74770606764954" />
+      <edge source="P3" target="Epistulae (vel Heroides)" id="650" weight="65.34137590629922" />
+      <edge source="P3" target="Medicamina faciei femineae" id="651" weight="14.499980483369834" />
+      <edge source="P3" target="Ars Amatoria" id="652" weight="55.68509428633281" />
+      <edge source="P3" target="Remedia amoris" id="653" weight="46.26944289217359" />
+      <edge source="P3" target="Ibis" id="654" weight="39.78357056752992" />
+      <edge source="P3" target="Fasti" id="655" weight="57.80206246342765" />
+      <edge source="P3" target="Ex Ponto" id="656" weight="62.88511210725858" />
+      <edge source="P3" target="Aeneid" id="657" weight="50.9002622260541" />
+      <edge source="P3" target="Eclogues" id="658" weight="40.36553945981609" />
+      <edge source="P3" target="Georgicon" id="659" weight="42.52089720510032" />
+      <edge source="To" target="W1" id="660" weight="91.27646513876762" />
+      <edge source="To" target="P5" id="661" weight="87.69865315655106" />
+      <edge source="To" target="Metamorphoses" id="662" weight="59.06787679725283" />
+      <edge source="To" target="Tristia" id="663" weight="64.28587873228363" />
+      <edge source="To" target="Amores" id="664" weight="58.98220841112525" />
+      <edge source="To" target="Epistulae (vel Heroides)" id="665" weight="65.6330136353463" />
+      <edge source="To" target="Medicamina faciei femineae" id="666" weight="14.539778606811593" />
+      <edge source="To" target="Ars Amatoria" id="667" weight="56.0193790494741" />
+      <edge source="To" target="Remedia amoris" id="668" weight="46.41421198651018" />
+      <edge source="To" target="Ibis" id="669" weight="40.01147556007301" />
+      <edge source="To" target="Fasti" id="670" weight="58.20952105759637" />
+      <edge source="To" target="Ex Ponto" id="671" weight="63.235615974203796" />
+      <edge source="To" target="Aeneid" id="672" weight="51.33783864755927" />
+      <edge source="To" target="Eclogues" id="673" weight="40.481002009102895" />
+      <edge source="To" target="Georgicon" id="674" weight="42.83574179890031" />
+      <edge source="W1" target="P5" id="675" weight="88.77728315363439" />
+      <edge source="W1" target="Metamorphoses" id="676" weight="58.34509812633946" />
+      <edge source="W1" target="Tristia" id="677" weight="64.17473541776873" />
+      <edge source="W1" target="Amores" id="678" weight="58.997671088615554" />
+      <edge source="W1" target="Epistulae (vel Heroides)" id="679" weight="65.55476256983515" />
+      <edge source="W1" target="Medicamina faciei femineae" id="680" weight="14.520146645663756" />
+      <edge source="W1" target="Ars Amatoria" id="681" weight="55.925182183695036" />
+      <edge source="W1" target="Remedia amoris" id="682" weight="46.582110644924924" />
+      <edge source="W1" target="Ibis" id="683" weight="39.91360964519855" />
+      <edge source="W1" target="Fasti" id="684" weight="57.81393867550755" />
+      <edge source="W1" target="Ex Ponto" id="685" weight="63.193271447269225" />
+      <edge source="W1" target="Aeneid" id="686" weight="50.37671435356018" />
+      <edge source="W1" target="Eclogues" id="687" weight="40.15036934558987" />
+      <edge source="W1" target="Georgicon" id="688" weight="42.09004910270803" />
+      <edge source="P5" target="Metamorphoses" id="689" weight="57.286245884042366" />
+      <edge source="P5" target="Tristia" id="690" weight="63.17867296202429" />
+      <edge source="P5" target="Amores" id="691" weight="58.358399139437175" />
+      <edge source="P5" target="Epistulae (vel Heroides)" id="692" weight="64.73614598559367" />
+      <edge source="P5" target="Medicamina faciei femineae" id="693" weight="14.344082088081333" />
+      <edge source="P5" target="Ars Amatoria" id="694" weight="55.057444112747554" />
+      <edge source="P5" target="Remedia amoris" id="695" weight="45.98219595482493" />
+      <edge source="P5" target="Ibis" id="696" weight="39.24827022379902" />
+      <edge source="P5" target="Fasti" id="697" weight="56.94600643889336" />
+      <edge source="P5" target="Ex Ponto" id="698" weight="62.25065066307237" />
+      <edge source="P5" target="Aeneid" id="699" weight="49.598872488577214" />
+      <edge source="P5" target="Eclogues" id="700" weight="39.96898049293913" />
+      <edge source="P5" target="Georgicon" id="701" weight="41.50513156502464" />
+      <edge source="Metamorphoses" target="Tristia" id="702" weight="75.878977328338" />
+      <edge source="Metamorphoses" target="Amores" id="703" weight="66.68195249045952" />
+      <edge source="Metamorphoses" target="Epistulae (vel Heroides)" id="704" weight="72.79029327500072" />
+      <edge source="Metamorphoses" target="Medicamina faciei femineae" id="705" weight="20.91121076192418" />
+      <edge source="Metamorphoses" target="Ars Amatoria" id="706" weight="69.00518924592807" />
+      <edge source="Metamorphoses" target="Remedia amoris" id="707" weight="50.73508660333916" />
+      <edge source="Metamorphoses" target="Ibis" id="708" weight="54.80575208667171" />
+      <edge source="Metamorphoses" target="Fasti" id="709" weight="80.25864469658687" />
+      <edge source="Metamorphoses" target="Ex Ponto" id="710" weight="70.31216675863116" />
+      <edge source="Metamorphoses" target="Aeneid" id="711" weight="84.54790180494074" />
+      <edge source="Metamorphoses" target="Eclogues" id="712" weight="43.72150636282396" />
+      <edge source="Metamorphoses" target="Georgicon" id="713" weight="71.7584215744331" />
+      <edge source="Tristia" target="Amores" id="714" weight="72.0029423588034" />
+      <edge source="Tristia" target="Epistulae (vel Heroides)" id="715" weight="79.88750792878041" />
+      <edge source="Tristia" target="Medicamina faciei femineae" id="716" weight="18.817085314273175" />
+      <edge source="Tristia" target="Ars Amatoria" id="717" weight="70.6296483981889" />
+      <edge source="Tristia" target="Remedia amoris" id="718" weight="57.14040924997907" />
+      <edge source="Tristia" target="Ibis" id="719" weight="53.51948152612679" />
+      <edge source="Tristia" target="Fasti" id="720" weight="75.47357964460781" />
+      <edge source="Tristia" target="Ex Ponto" id="721" weight="80.8788527825439" />
+      <edge source="Tristia" target="Aeneid" id="722" weight="62.09839911624611" />
+      <edge source="Tristia" target="Eclogues" id="723" weight="45.89253905515335" />
+      <edge source="Tristia" target="Georgicon" id="724" weight="51.18047132805871" />
+      <edge source="Amores" target="Epistulae (vel Heroides)" id="725" weight="74.46146926080961" />
+      <edge source="Amores" target="Medicamina faciei femineae" id="726" weight="18.146908562220176" />
+      <edge source="Amores" target="Ars Amatoria" id="727" weight="67.45053152643456" />
+      <edge source="Amores" target="Remedia amoris" id="728" weight="55.396851481953945" />
+      <edge source="Amores" target="Ibis" id="729" weight="46.43126700136112" />
+      <edge source="Amores" target="Fasti" id="730" weight="68.5000978817411" />
+      <edge source="Amores" target="Ex Ponto" id="731" weight="70.88022660016297" />
+      <edge source="Amores" target="Aeneid" id="732" weight="55.822317477409925" />
+      <edge source="Amores" target="Eclogues" id="733" weight="44.201860800757565" />
+      <edge source="Amores" target="Georgicon" id="734" weight="47.7712803243979" />
+      <edge source="Epistulae (vel Heroides)" target="Medicamina faciei femineae" id="735" weight="18.580223299795804" />
+      <edge source="Epistulae (vel Heroides)" target="Ars Amatoria" id="736" weight="71.27706817081486" />
+      <edge source="Epistulae (vel Heroides)" target="Remedia amoris" id="737" weight="58.68541969652612" />
+      <edge source="Epistulae (vel Heroides)" target="Ibis" id="738" weight="52.73679165979732" />
+      <edge source="Epistulae (vel Heroides)" target="Fasti" id="739" weight="73.81270211668213" />
+      <edge source="Epistulae (vel Heroides)" target="Ex Ponto" id="740" weight="78.9995548406775" />
+      <edge source="Epistulae (vel Heroides)" target="Aeneid" id="741" weight="60.50456643815504" />
+      <edge source="Epistulae (vel Heroides)" target="Eclogues" id="742" weight="47.45086362117058" />
+      <edge source="Epistulae (vel Heroides)" target="Georgicon" id="743" weight="49.80077906263946" />
+      <edge source="Medicamina faciei femineae" target="Ars Amatoria" id="744" weight="19.630687345932785" />
+      <edge source="Medicamina faciei femineae" target="Remedia amoris" id="745" weight="15.022187305295464" />
+      <edge source="Medicamina faciei femineae" target="Ibis" id="746" weight="13.357464246533212" />
+      <edge source="Medicamina faciei femineae" target="Fasti" id="747" weight="20.380330199223028" />
+      <edge source="Medicamina faciei femineae" target="Ex Ponto" id="748" weight="18.41694908707262" />
+      <edge source="Medicamina faciei femineae" target="Aeneid" id="749" weight="18.01366337060366" />
+      <edge source="Medicamina faciei femineae" target="Eclogues" id="750" weight="11.464648580947301" />
+      <edge source="Medicamina faciei femineae" target="Georgicon" id="751" weight="16.245976472108346" />
+      <edge source="Ars Amatoria" target="Remedia amoris" id="752" weight="56.48813491267266" />
+      <edge source="Ars Amatoria" target="Ibis" id="753" weight="47.740576016679896" />
+      <edge source="Ars Amatoria" target="Fasti" id="754" weight="71.36685787803549" />
+      <edge source="Ars Amatoria" target="Ex Ponto" id="755" weight="69.73465022171057" />
+      <edge source="Ars Amatoria" target="Aeneid" id="756" weight="57.17718452949845" />
+      <edge source="Ars Amatoria" target="Eclogues" id="757" weight="41.53137275600536" />
+      <edge source="Ars Amatoria" target="Georgicon" id="758" weight="49.40851062183851" />
+      <edge source="Remedia amoris" target="Ibis" id="759" weight="37.30076923193275" />
+      <edge source="Remedia amoris" target="Fasti" id="760" weight="55.574203173825644" />
+      <edge source="Remedia amoris" target="Ex Ponto" id="761" weight="57.47767274171841" />
+      <edge source="Remedia amoris" target="Aeneid" id="762" weight="41.020808899419926" />
+      <edge source="Remedia amoris" target="Eclogues" id="763" weight="34.75553998317857" />
+      <edge source="Remedia amoris" target="Georgicon" id="764" weight="36.0972942693364" />
+      <edge source="Ibis" target="Fasti" id="765" weight="51.60657239728802" />
+      <edge source="Ibis" target="Ex Ponto" id="766" weight="52.03838237669758" />
+      <edge source="Ibis" target="Aeneid" id="767" weight="46.86560625107325" />
+      <edge source="Ibis" target="Eclogues" id="768" weight="29.485330618191963" />
+      <edge source="Ibis" target="Georgicon" id="769" weight="38.71757857518405" />
+      <edge source="Fasti" target="Ex Ponto" id="770" weight="73.06907399015994" />
+      <edge source="Fasti" target="Aeneid" id="771" weight="69.62725727249142" />
+      <edge source="Fasti" target="Eclogues" id="772" weight="44.35189408923328" />
+      <edge source="Fasti" target="Georgicon" id="773" weight="59.06412759367885" />
+      <edge source="Ex Ponto" target="Aeneid" id="774" weight="56.85858722415917" />
+      <edge source="Ex Ponto" target="Eclogues" id="775" weight="45.71647329112216" />
+      <edge source="Ex Ponto" target="Georgicon" id="776" weight="46.877076401123084" />
+      <edge source="Aeneid" target="Eclogues" id="777" weight="41.69731017576712" />
+      <edge source="Aeneid" target="Georgicon" id="778" weight="74.97925122906314" />
+      <edge source="Eclogues" target="Georgicon" id="779" weight="38.263232863654075" />
+    </edges>
+  </graph>
+</gexf>
