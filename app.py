@@ -38,22 +38,8 @@ class myData:
 
 
 def data_loader():
-    if Path(OLD_NORSE_PICKLE).is_file():
-        with open(OLD_NORSE_PICKLE, "rb") as f:
-            old_norse_pamph = pickle.load(f)
-    else:
-        old_norse_pamph = menota_parser.get_parallelized_text(PSDG47)
-        f = open(OLD_NORSE_PICKLE, 'w+b')
-        pickle.dump(old_norse_pamph, f)
-        f.close()
-    if Path(LATIN_PICKLE).is_file():
-        with open(LATIN_PICKLE, "rb") as f:
-            latin = pickle.load(f)
-    else:
-        latin = latin_parser.parse_pamphilus(PAMPHILUS_LATINUS)
-        f = open(LATIN_PICKLE, 'w+b')
-        pickle.dump(latin, f)
-        f.close()
+    old_norse_pamph = pickle.load(OLD_NORSE_PICKLE)
+    latin = pickle.load(LATIN_PICKLE)
     return old_norse_pamph, latin
 
 
@@ -425,45 +411,16 @@ def splitsies(combined_name: str) -> str:
     return combined_name.split("-")[1]
 
 
-def get_leven_dfs_ready(df: pd.DataFrame, leven_similarity: int, leven_similarity_upper: int, lang: str, simplify: bool = False):
-    if lang == "Latin":
-        strings_to_check = ["B1", "P3", "W1", "To", "P5"]
-        filtered_df = df[df['v1'].str.contains('|'.join(strings_to_check))]
-        filtered_df["v_number_v1"] = filtered_df["v1"].apply(splitsies)
-        filtered_df["v_number_v2"] = filtered_df["v2"].apply(splitsies)
-        filtered_df = filtered_df[filtered_df["v_number_v1"] != filtered_df["v_number_v2"]]
-        filtered_df = filtered_df[filtered_df["v1"] != ""]
-        filtered_df.drop(columns=["v_number_v1", "v_number_v2", "locID"], inplace=True)
-        filtered_df = filtered_df.loc[(filtered_df["score"] >= leven_similarity) & (filtered_df["score"] <= leven_similarity_upper)]
-        if simplify:
-            filtered_df = filtered_df[~filtered_df['v2'].str.contains('|'.join(strings_to_check))]
-            return filtered_df
-        else:
-            return filtered_df
-    elif lang == "Old Norse":
-        if simplify:
-            filtered_df = df.loc[(df["score"] >= leven_similarity) & (df["score"] <= leven_similarity_upper)]
-            filtered_df = filtered_df[~filtered_df['sent1'].str.contains("Pamph")]
-            return filtered_df
-        else:
-            return df.loc[(df["score"] >= leven_similarity) & (df["score"] <= leven_similarity_upper)]
-
-
-def get_leven_df(leven_path:str) -> pd.DataFrame:
+def get_leven_df(leven_path:str = LEVEN_DB) -> pd.DataFrame:
     db = sqlite3.connect(leven_path)
     df = pd.read_sql("SELECT * FROM rat_scores", db)
     return df
 
 
 def display_leven():
-    which_leven = st.selectbox("Load Old Norse or Latin Levenshtein data", options=["Old Norse", "Latin"])
-    option_dict = {"Old Norse": LEVEN_DB_ON, "Latin": LEVEN_DB}
-    df = get_leven_df(option_dict[which_leven])
-    simplify = st.checkbox("Simplify output by removing all entries that show Levenshtein Scores between Verses of Pamphilus; group results by verses and sort.")
-    leven_similarity = st.slider("Levenshtein lower threshold", min_value=50, max_value=100, value=60)
-    leven_similarity_upper = st.slider("Levenshtein upper threshold", min_value=50, max_value=100, value=99)
-    filtered_df = get_leven_dfs_ready(df, leven_similarity, leven_similarity_upper, which_leven, simplify)
-    st.dataframe(filtered_df)
+    st.write("This page displays the results of the Levenshtein analysis.")
+    df = get_leven_df()
+    st.dataframe(df)
 
 
 def style_markers_page():
