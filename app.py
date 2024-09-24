@@ -38,8 +38,10 @@ class myData:
 
 
 def data_loader():
-    old_norse_pamph = pickle.load(OLD_NORSE_PICKLE)
-    latin = pickle.load(LATIN_PICKLE)
+    with open(OLD_NORSE_PICKLE, "rb") as ps:
+        old_norse_pamph = pickle.load(ps)
+    with open(LATIN_PICKLE, "rb") as latin_pamph:
+        latin = pickle.load(latin_pamph)
     return old_norse_pamph, latin
 
 
