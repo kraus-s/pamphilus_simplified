@@ -38,10 +38,22 @@ class myData:
 
 
 def data_loader():
-    with open(OLD_NORSE_PICKLE, "rb") as ps:
-        old_norse_pamph = pickle.load(ps)
-    with open(LATIN_PICKLE, "rb") as latin_pamph:
-        latin = pickle.load(latin_pamph)
+    if Path(OLD_NORSE_PICKLE).is_file():
+        with open(OLD_NORSE_PICKLE, "rb") as f:
+            old_norse_pamph = pickle.load(f)
+    else:
+        old_norse_pamph = menota_parser.get_parallelized_text(PSDG47)
+        f = open(OLD_NORSE_PICKLE, 'w+b')
+        pickle.dump(old_norse_pamph, f)
+        f.close()
+    if Path(LATIN_PICKLE).is_file():
+        with open(LATIN_PICKLE, "rb") as f:
+            latin = pickle.load(f)
+    else:
+        latin = latin_parser.parse_pamphilus(PAMPHILUS_LATINUS)
+        f = open(LATIN_PICKLE, 'w+b')
+        pickle.dump(latin, f)
+        f.close()
     return old_norse_pamph, latin
 
 
@@ -89,6 +101,8 @@ def _state_initializer():
 def _check_setup():
     if not st.session_state.setup_done:
         warmup.download_onp_data()
+        warmup.download_levenshtein_data()
+        st.session_state.setup_done = True
 
 def _click_model_quantifier():
     st.session_state.quantifier_clicked = True
@@ -301,6 +315,64 @@ def check_verse_contained(verse_number: str, verse_number_range: List[str]) -> b
         if i in verse_number:
             return True    
     return False
+
+
+# The following code block was intended to demonstrate a neo4j backend as a useful tool for graph based philological research.
+# It proved to be out of scope for the project, but is kept here as a reference for future work.
+# def display_para():
+#     st.write("NB! neo4j backend is not currently working with streamlit cloud.")
+#     graph = GraphDatabase.driver(NEO4J_URL_LOCAL, auth=NEO4J_CREDENTIALS)
+#     selected_verse = st.text_input("Select Verse or Verserange") 
+#     txtWits = ['B1', 'P3', 'To', 'W1', 'DG4-7']
+#     selected_text = st.multiselect(label="Select witnesses", options = txtWits, default=txtWits)
+#     displayMode = st.radio("Select display mode", options=[1, 2])
+#     if st.button("Run"):
+#         if "-" in selected_verse:
+#             i, ii = selected_verse.split("-")
+#             verse_number_range = list(map(str, range(int(i), int(ii)+1)))
+#             verse_number_range = [str(x) for x in verse_number_range]
+#         if not selected_verse:
+#             st.write("You gotta give me some text to work with")
+#         if displayMode == 1:
+#             number_of_columns = len(selected_text)
+#             cols = st.columns(number_of_columns)
+#             for a, aa in enumerate(cols):
+#                 current_text = selected_text[a]
+#                 aa.write(current_text)
+#                 if not selected_verse:
+#                     aa.write("No Verse or Verserange selected")
+#                 if current_text == 'DG4-7':
+#                     with graph.session() as session:
+#                         tx = session.begin_transaction()
+#                         results = tx.run(f"MATCH (a:E33_Linguistic_Object) WHERE a.paraVerse IN {verse_number_range} AND a.inMS = '{current_text}' RETURN a.paraVerse AS vn, a.Normalized AS text")
+#                         resD = results.data()
+#                 else:
+#                     with graph.session() as session:
+#                         tx = session.begin_transaction()
+#                         results = tx.run(f"MATCH (a:E33_Linguistic_Object) WHERE a.VerseNorm IN {verse_number_range} AND a.inMS = '{current_text}' RETURN a.VerseNorm AS vn, a.Normalized AS text")
+#                         resD = results.data()
+#                 resX = {}
+#                 for res in resD:
+#                     if res['vn'] in resX:
+#                         resX[res['vn']] = f"{resX[res['vn']]} {res['text']}"
+#                     else:
+#                         resX[res['vn']] = res['text']
+#                 for k in resX:
+#                     aa.write(f"{k} {resX[k]}")
+#         elif displayMode == 2:
+#             st.write("Nothing to see here yet.")
+#             st.write(f"Getting Verses {verse_number_range} from MSs {selected_text}")
+#             with graph.session() as session:
+#                 tx = session.begin_transaction()
+#                 results = tx.run(f"""MATCH (a)-[r]->(b) 
+#                                     WHERE a.inMS IN {selected_text}
+#                                     AND b.inMS IN {selected_text}
+#                                     AND a.VerseNorm IN {verse_number_range} 
+#                                     RETURN *""")
+#                 nodes = list(results.graph()._nodes.values())
+#                 rels = list(results.graph()._relationships.values())
+#             graph_view = neo2st.get_view(nodes, rels)
+#             components.html(graph_view, height = 900, width=900, scrolling=True)
             
 
 def vcooc():
@@ -355,17 +427,49 @@ def splitsies(combined_name: str) -> str:
     return combined_name.split("-")[1]
 
 
-def get_leven_df(leven_path:str = LEVEN_DB) -> pd.DataFrame:
+def get_leven_dfs_ready(df: pd.DataFrame, leven_similarity: int, leven_similarity_upper: int, lang: str, simplify: bool = False):
+    if lang == "Latin":
+        strings_to_check = ["B1", "P3", "W1", "To", "P5"]
+        filtered_df = df[df['v1'].str.contains('|'.join(strings_to_check))]
+        filtered_df["v_number_v1"] = filtered_df["v1"].apply(splitsies)
+        filtered_df["v_number_v2"] = filtered_df["v2"].apply(splitsies)
+        filtered_df = filtered_df[filtered_df["v_number_v1"] != filtered_df["v_number_v2"]]
+        filtered_df = filtered_df[filtered_df["v1"] != ""]
+        filtered_df.drop(columns=["v_number_v1", "v_number_v2", "locID"], inplace=True)
+        filtered_df = filtered_df.loc[(filtered_df["score"] >= leven_similarity) & (filtered_df["score"] <= leven_similarity_upper)]
+        if simplify:
+            filtered_df = filtered_df[~filtered_df['v2'].str.contains('|'.join(strings_to_check))]
+            return filtered_df
+        else:
+            return filtered_df
+    elif lang == "Old Norse":
+        if simplify:
+            filtered_df = df.loc[(df["score"] >= leven_similarity) & (df["score"] <= leven_similarity_upper)]
+            filtered_df = filtered_df[~filtered_df['sent1'].str.contains("Pamph")]
+            return filtered_df
+        else:
+            return df.loc[(df["score"] >= leven_similarity) & (df["score"] <= leven_similarity_upper)]
+
+def get_leven_df(leven_path:str) -> pd.DataFrame:
     db = sqlite3.connect(leven_path)
     df = pd.read_sql("SELECT * FROM rat_scores", db)
     return df
 
 
 def display_leven():
-    st.write("This page displays the results of the Levenshtein analysis.")
-    df = get_leven_df()
-    st.dataframe(df)
+    which_leven = st.selectbox("Load Old Norse or Latin Levenshtein data", options=["Old Norse", "Latin"])
+    option_dict = {"Old Norse": LEVEN_DB_ON, "Latin": LEVEN_DB}
+    df = get_leven_df(option_dict[which_leven])
+    simplify = st.checkbox("Simplify output by removing all entries that show Levenshtein Scores between Verses of Pamphilus; group results by verses and sort.")
+    leven_similarity = st.slider("Levenshtein lower threshold", min_value=50, max_value=100, value=60)
+    leven_similarity_upper = st.slider("Levenshtein upper threshold", min_value=50, max_value=100, value=99)
+    filtered_df = get_leven_dfs_ready(df, leven_similarity, leven_similarity_upper, which_leven, simplify)
+    st.dataframe(filtered_df)
 
+
+def analysis_placeholder():
+    st.title("Analysis mode")
+    st.write("This is a placeholder for the analysis mode. The analysis mode can not be run in the streamlit cloud environment due to ressource constraints.")
 
 def style_markers_page():
     if Path(STYLE_MARKERS_PATH).is_dir():
@@ -383,7 +487,7 @@ def home_page():
     st.write("Welcome to the webapp. This is a digital appendix to my dissertation.")
     st.write("It has all the results and data that I used in my dissertation.")
     st.write("You can navigate the app using the sidebar on the left.")
-    st.write("This is a simplified version. To run the analyses, you need to run the app locally. Refer to the repository at https://github.com/kraus-s/pamphilus_db")
+    st.write("This is a simplified version. To run the analyises, you need to run the app locally. Refer to the repository at https://github.com/kraus-s/pamphilus_db")
  
 
 def main():
@@ -413,7 +517,7 @@ def main():
                 "Node2Vec similarities": onp_n2v,
                 "Stylometrics and Similarities": get_all_stylo,
                 "Levenshtein similarities (Latin)": display_leven,
-                "Analysis mode": "foo"}
+                "Analysis mode": analysis_placeholder}
     choice = st.sidebar.selectbox(label="Menu", options=choices.keys())
     if choice == 'Parallel text display':
         para_display(current_data)
@@ -426,3 +530,13 @@ def main():
 # -----------
 
 main()
+
+if st.session_state.step == "analysis":
+    if st.button("Take me back to the home page"):
+        st.session_state.step = ""
+    if st.button("Run stylometry"):
+        st.session_state.step = "stylometry"
+    if st.button("Run node2vec"):
+        st.session_state.step = "node2vec"
+    if st.button("Run manuscript network analysis"):
+        st.session_state.step = "clustering"
