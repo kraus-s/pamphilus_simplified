@@ -8,7 +8,7 @@ ON_STOPS = "data/norseMat/stopwords.txt"
 ON_CULLS_LEMMA = "data/cache/on_culls_lemma.p"
 ON_CULLS_NORMALIZED = "data/cache/on_culls_normalized.p"
 EXCELS = "data/ingest/"
-LEVEN_DB = "data/similarities/levenshtein/lev-mem.db"
+LEVEN_DB = "data/similarities/levenshtein/shortened_leven.db"
 LEVEN_DB_ON = "data/similarities/levenshtein/lev-on.db"
 LEVEN_FOLDER = "data/similarities/levenshtein/"
 STYLO_FOLDER = "data/similarities/stylo/"
@@ -130,11 +130,5 @@ EXCLUDE_LEGAL = [
 ]
 EXCLUDE_DIPLOMAS = ["?v95", "?v91", "?v261", "?v375"]
 
-# neo4j default config
-NEO4J_URL_LOCAL = "neo4j://localhost:7687"
-NEO4J_CREDENTIALS = ('neo4j', '12')
-
-
 # setup config
 ONP_DB_URL = "https://drive.switch.ch/index.php/s/QOG86EdRFjOTya7/download"
-LEVENSHTEIN_DB_URL = "https://drive.switch.ch/index.php/s/c3VyEkTut3n7d2j/download"
