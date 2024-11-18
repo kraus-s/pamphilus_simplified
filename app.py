@@ -101,8 +101,8 @@ def _state_initializer():
 def _check_setup():
     if not st.session_state.setup_done:
         warmup.download_onp_data()
-        warmup.download_levenshtein_data()
         st.session_state.setup_done = True
+
 
 def _click_model_quantifier():
     st.session_state.quantifier_clicked = True
@@ -110,6 +110,7 @@ def _click_model_quantifier():
 
 def _click_model_load():
     st.session_state.click_model_load = True
+
 
 # Display functions
 # -----------------
